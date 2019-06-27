@@ -182,7 +182,7 @@ void PID::SetControllerDirection(int Direction)
    controllerDirection = Direction;
 }
 
-/* Status Funcions*************************************************************
+/*Status Funcions*************************************************************
  * Just because you set the Kp=-1 doesn't mean it actually happened.  these
  * functions query the internal state of the PID.  they're here for display 
  * purposes.  this are the functions the PID Front-end uses for example
